@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page d'Accueil</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="Link\cv\cv-thanh-son-lemelle.html">Lemelle Thanh — étudiant IT</a>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="realisations.html">Discord</a>
+            <a href="contact.html">WhatsApp</a>
+            <a href="youtube.html">YouTube</a>
+        </nav>
+    </header>
+
+    <main>
+        <section style="height: 270px;">
+            <h2 style=" border: solid; width: 50%;">Bienvenue sur notre site web</h2>
+            <div style="width: 50%;">
+                <table style="border: solid;">
+                    <tr>
+                        <th>En-tête 1</th>
+                        <th>En-tête 2</th>
+                        <th>En-tête 3</th>
+                    </tr>
+                    <tr>
+                        <td>Donnée 1</td>
+                        <td>Donnée 2</td>
+                        <td>Donnée 3</td>
+                    </tr>
+                    <tr>
+                        <td>Donnée 4</td>
+                        <td>Donnée 5</td>
+                        <td>Donnée 6</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <h2>WhatsApp</h2>
+        <h2>Discord</h2>
+        <h2>YouTube</h2>
+        <p>Ceci est la page d'accueil de notre site. Vous pouvez naviguer vers d'autres sections à l'aide du menu de navigation ci-dessus.</p>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Mon Site Web. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

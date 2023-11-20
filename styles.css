@@ -1,0 +1,338 @@
+body {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    --token-54c12b75-e550-4a47-a968-d592a8f76989: #000;
+    --token-d7bb44af-e7b4-4da5-8249-f382d3d18221: #fff;
+    --token-e7ac1c38-4a11-4259-b2c6-ca17666c5b6c: #F2F1F1;
+    --token-639f11af-fee6-41c1-b43e-d362db334f4e: rgb(225, 223, 221);
+    --token-9c12862f-3351-4871-9c8a-a586966e91a1: #D1CECB;
+    --token-c6faadf3-cc27-420c-bb6d-a9bc27619db3: rgb(162, 169, 163);
+    --token-720c7f8d-a39e-414d-922d-45a7b46f1e17: rgb(80, 86, 84);
+    --token-435adf1e-c5ee-44d2-89a5-beb8f457d404: #3C3835;
+    --token-b07165bf-9fdb-4a42-89a5-54f13a98a6ab: #515660;
+    --token-c4113b7a-bc43-4bf8-b9c3-2ad554ddcfc7: hsl(220, 12%, 65%);
+    --token-873a2678-1ab3-43a3-8add-3d3c8b20fc80: rgb(237, 191, 171);
+    --token-104c22c7-1adb-4c15-b640-de1e872302b0: rgb(152, 145, 139);
+    background-color: var(--token-c6faadf3-cc27-420c-bb6d-a9bc27619db3);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+header a {
+    color: #111111;
+    text-decoration: none;
+}
+header a:hover {
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+}
+nav a {
+
+    justify-self: space-around;
+    color: var(--token-54c12b75-e550-4a47-a968-d592a8f76989, #000000);
+}
+
+nav a:hover {
+
+    color: var(--token-54c12b75-e550-4a47-a968-d592a8f76989, #000000);
+    text-decoration: line-through;
+}
+
+main {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main section.container-row {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+footer {
+    border: solid;
+
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -.03em;
+    line-height: .9em;
+    margin: 40px;
+    text-align: start;
+    color: #000000;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.intro {
+    display: flex;
+    justify-content: flex-end;
+    justify-self: end;
+}
+
+
+.container-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Deux colonnes de largeur égale */
+    grid-gap: 0px; /* Espace entre les éléments */
+    height: 270px; /* Hauteur du conteneur */
+}
+
+.container-grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Deux colonnes de largeur égale */
+    grid-gap: 0px; /* Espace entre les éléments */
+    min-height: auto;
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+}
+
+.right-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Les éléments sont centrés vers le bas */
+    align-items: center;
+}
+.left-column h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -.03em;
+    line-height: .9em;
+    margin: 40px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    text-align: start;
+    color: #000000;
+    text-decoration: none;
+    text-transform: none;
+}
+table {
+    display: table;
+    width: 100%; /* Ajustez la largeur de la table selon vos besoins */
+    border-collapse: separate;
+  }
+  
+  tr {
+    display: table-row;
+    margin: px; /* Ajoute une marge de 10 pixels autour de chaque ligne */
+  }
+  
+  td {
+    display: table-cell;
+    padding: 1% 8% 0.5% 0.2%; /* Ajoute un rembourrage à l'intérieur des cellules */
+    text-align: left;
+    font-weight: 450;
+    font-size: 14px;
+    
+}
+.image-container-principal {
+    background-color: var(--token-720c7f8d-a39e-414d-922d-45a7b46f1e17);
+    border-radius: 16px; /* Coins arrondis */
+    padding: 20px; /* Espace intérieur */
+    display: flex;
+    justify-content: space-between; /* Espacement égal entre les colonnes */
+    gap: 20px; /* Espace entre les colonnes */
+    flex-wrap: wrap; /* Pour gérer le retour à la ligne des colonnes */
+    overflow: hidden;
+    align-items: stretch;
+    border: solid;
+    height: 120vh;
+    margin: 1%;
+}
+
+
+.image-container {
+    background-color: var(--token-720c7f8d-a39e-414d-922d-45a7b46f1e17);
+    border-radius: 16px; /* Coins arrondis */
+    padding: 20px; /* Espace intérieur */
+    display: flex;
+    justify-content: space-between; /* Espacement égal entre les colonnes */
+    gap: 20px; /* Espace entre les colonnes */
+    flex-wrap: wrap; /* Pour gérer le retour à la ligne des colonnes */
+    overflow: hidden;
+    align-items: stretch;
+    border: solid;
+    height: 120vh;
+    margin: 1%;
+}
+
+.container-grid2 .image-container {
+    background-color: var(--token-720c7f8d-a39e-414d-922d-45a7b46f1e17);
+    border-radius: 16px; /* Coins arrondis */
+    padding: 0px; /* Espace intérieur */
+    display: flex;
+    gap: 0px; /* Espace entre les colonnes */
+    flex-wrap: wrap; /* Pour gérer le retour à la ligne des colonnes */
+    overflow: hidden;
+    align-items: stretch;
+    border: solid;
+    height: 1090px;
+    width: 100%;
+}
+.container-grid2 .image-container.cut-right {
+    padding: 0%; /* Espace intérieur */
+    display: flex;
+    gap: 0px; /* Espace entre les colonnes */
+    flex-wrap: wrap; /* Pour gérer le retour à la ligne des colonnes */
+    overflow: hidden;
+    align-items: stretch;
+    border: solid;
+    height: 480px;
+    width: 100%;
+}
+.container-cuting-edge{
+    background-color: var(--token-720c7f8d-a39e-414d-922d-45a7b46f1e17);
+    border-radius: 16px; /* Coins arrondis */
+    border: solid;
+    margin: 2%; 
+    overflow: hidden;
+
+}
+
+
+.container-column {
+    display: flex;
+    flex-direction: row;
+    flex: 0 1 calc(50% - 20px); /* 2 colonnes, espacement entre les colonnes déduit */
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+}
+
+.image-container img{
+    max-width: 100%;
+    height: auto; /* Ajuster la hauteur de l'image en fonction de la largeur */
+} 
+
+.image-container-principal > img{
+    width: auto;
+    max-width: 50%;
+    height: auto;
+    max-height: 50%; /* Ajuster la hauteur de l'image en fonction de la largeur */
+    object-fit: contain;
+    border-radius: 16px;
+} 
+.image-container-principal div img{
+    display: flex;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%; /* Ajuster la hauteur de l'image en fonction de la largeur */
+    border-radius: 16px;
+    margin-top: 50%;
+} 
+
+
+.cut-right{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    margin-right: -60px;    
+}
+.cut-right  img{
+ width: 100%;
+
+}
+
+
+.cut-right2{
+    display: block;
+    border-radius: inherit;
+    object-position: left;
+    object-fit: cover;
+    image-rendering: auto;
+    border-right: 0px;
+    padding-right: 0;
+}
+.cut-top{
+    display: block;
+    border-radius: inherit;
+    object-position: center;
+    object-fit: cover;
+    image-rendering: auto;
+    border-right: 0px;
+    padding-right: -1%;
+}
+.button-en-lire-plus{
+    border-bottom-width: 2px;
+    border-color: rgb(0, 0, 0);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-style: solid;
+    border-top-width: 2px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 69px;
+    opacity: 1;
+    width: 25%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 24px 32px;
+}
+.button-en-lire-plus:hover{
+    color: white;
+    background-color: black;
+}
+
+.button-voir-website{
+    border-bottom-width: 2px;
+    border-color: rgba(0, 0, 0, 0);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-style: solid;
+    border-top-width: 2px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 69px;
+    opacity: 1;
+    width: 25%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 24px 32px;
+}
+
+.button-voir-website:hover{
+    background-color:rgba(0, 0, 0, 0.05);
+}
+
+/*! stylisation des images !*/
+
+.image_de_la_grille
+{
+    height: 150px;
+
+}
